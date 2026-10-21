@@ -1,0 +1,432 @@
+/* ================= DASAR ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: rgba(8, 8, 8, 0.95);
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand span {
+    color: #7c3cff;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: #ddd !important;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #7c3cff !important;
+}
+
+.contact-btn {
+    border: 1px solid #7c3cff;
+    border-radius: 5px;
+    padding: 8px 15px !important;
+}
+
+
+/* ================= HOME ================= */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+
+    background:
+        radial-gradient(
+            circle at 80% 40%,
+            rgba(124, 60, 255, 0.2),
+            transparent 30%
+        ),
+        #080808;
+}
+
+.small-title {
+    color: #aaa;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #7c3cff;
+}
+
+.hero h3 {
+    color: #bbb;
+}
+
+.description {
+    color: #999;
+    max-width: 550px;
+    line-height: 1.8;
+}
+
+
+/* ================= BUTTON ================= */
+
+.btn-purple {
+    background: #7c3cff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.btn-purple:hover {
+    background: #6429df;
+    color: white;
+}
+
+
+/* ================= PROFILE ================= */
+
+.profile-circle {
+    width: 300px;
+    max-height: 250px;
+    margin: auto;
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            #7c3cff,
+            #180d35 60%,
+            transparent 70%
+        );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-circle img {
+    width: 300px;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+/* ================= SECTION ================= */
+
+.section {
+    padding: 120px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title p {
+    color: #7c3cff;
+    letter-spacing: 3px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-title span {
+    color: #7c3cff;
+}
+
+
+/* ================= ABOUT ================= */
+
+.about-box {
+    background: #111;
+    border: 1px solid #292929;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.about-box h4 {
+    color: #7c3cff;
+}
+
+
+/* ================= SERVICE ================= */
+
+.service-card {
+    background: #111;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    height: 100%;
+
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #7c3cff;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #7c3cff;
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+
+    font-weight: bold;
+}
+
+.service-card p {
+    color: #999;
+}
+
+
+/* ================= STATISTICS ================= */
+
+.statistics {
+    padding: 60px 0;
+    background: #101010;
+}
+
+.stat-box {
+    border: 1px solid #333;
+    padding: 25px;
+}
+
+.stat-box h2 {
+    color: white;
+}
+
+.stat-box p {
+    color: #888;
+    margin: 0;
+}
+
+.stat-box.active {
+    background: #7c3cff;
+    border-color: #7c3cff;
+}
+
+.stat-box.active p {
+    color: white;
+}
+
+
+/* ================= PROJECT ================= */
+
+.project-card {
+    background: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #222;
+}
+
+.project-image {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+   
+
+    background:
+        linear-gradient(
+            135deg,
+            #28125a,
+            #111
+        );
+
+    color: #7c3cff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.project-content {
+    padding: 25px;
+}
+
+.project-content p {
+    color: #999;
+}
+
+.project-content a {
+    color: #7c3cff;
+    text-decoration: none;
+}
+
+
+/* ================= SKILLS ================= */
+
+.skills {
+    background: #0d0d0d;
+}
+
+.skill-box {
+    background: #111;
+    border: 1px solid #292929;
+    padding: 30px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    border-color: #7c3cff;
+    color: #7c3cff;
+}
+
+
+/* ================= CONTACT ================= */
+
+.contact {
+    background: #080808;
+}
+
+.form-label {
+    color: #ddd;
+}
+
+.form-control {
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+    padding: 12px;
+}
+
+.form-control:focus {
+    background: #111;
+    color: white;
+    border-color: #7c3cff;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #666;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #050505;
+    color: #777;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .description {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .profile-circle {
+        width: 280px;
+        height: 280px;
+        margin-top: 50px;
+    }
+
+    .profile-circle img {
+        width: 240px;
+    }
+    .oyp {
+        text-align:center;
+    }
+
+}
+
+
+/* ================= HALAMAN PROJECT BAJU ================= */
+
+.oyp {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.oyp h2 {
+    font-size: clamp(24px, 4vw, 40px);
+    margin-bottom: 25px;
+}
+
+.oyp img {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto 25px;
+}
+
+.oyp a {
+    display: inline-block;
+    color: #7c3cff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Tampilan HP */
+@media (max-width: 576px) {
+    .oyp {
+        padding: 25px 15px;
+    }
+
+    .oyp h2 {
+        font-size: 24px;
+    }
+}
