@@ -430,3 +430,19 @@ footer {
         font-size: 24px;
     }
 }
+
+
+
+/* ================= HAMBURGER MENU ================= */
+
+.navbar-toggler {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.15rem rgba(124, 60, 255, 0.5);
+}
