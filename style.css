@@ -250,11 +250,43 @@ body {
 
 /* ================= PROJECT ================= */
 
+/* ================= PROJECT ================= */
+
 .project-card {
     background: #111;
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid #222;
+    border: 1px solid #7c3cff;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    border-color: #7c3cff;
+    box-shadow: 0 0 15px rgba(124, 60, 255, 0.3);
+}
+
+.project-card h3,
+.project-card h4,
+.project-card h5 {
+    color: white;
+}
+
+.project-card p {
+    color: #999;
+}
+
+.project-card a {
+    color: #7c3cff !important;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    color: #a47aff !important;
+}
+
+.project-image {
+    background: linear-gradient(135deg, #28125a, #111);
+    color: #7c3cff;
 }
 
 .project-image {
@@ -446,3 +478,70 @@ footer {
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0.15rem rgba(124, 60, 255, 0.5);
 }
+
+/* CARD PRESTASI */
+#prestasi .achievement-card {
+    background: #121212 !important;
+    border: 1px solid #292929;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+#prestasi .achievement-card:hover {
+    transform: translateY(-7px);
+    border-color: #873bff;
+}
+
+#prestasi .card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+#prestasi .card-body {
+    padding: 20px;
+}
+
+#prestasi .card-title {
+    color: white;
+}
+
+#prestasi .card-text {
+    color: #aaa;
+}
+
+.text-purple {
+    color: #873bff !important;
+}
+
+.bg-purple {
+    background-color: #873bff !important;
+}
+
+
+
+/* ================= PRESTASI ================= */
+
+.achievement-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ================= AKHIR PRESTASI ================= */
