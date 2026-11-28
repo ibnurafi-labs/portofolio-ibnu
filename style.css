@@ -495,8 +495,9 @@ footer {
 
 #prestasi .card-img-top {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
+    height: 290px;
+    object-fit: contain;
+    padding: 5px;
 }
 
 #prestasi .card-body {
@@ -533,7 +534,7 @@ footer {
 
 .achievement-card img {
     width: 100%;
-    height: 260px;
+    height: 150px;
     object-fit: contain;
     padding: 10px;
     background-color: #ffffff;
